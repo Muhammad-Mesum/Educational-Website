@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-heading{
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    color:whitesmoke;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+.heading span{
+    font-size: 13px;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchbar input{
+    padding: 4px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+.searchbar span a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px ;
+    border-right: 1px solid gray;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav{
+    background-color: rgb(206, 205, 205);
+    border-bottom: 1px solid black;
+}
+
+.home{
+    display: flex; 
+    margin:20px;
+}
+
+.leftside{
+    flex-basis: 60%;
+    padding: 20px;
+    background-color: rgb(146, 146, 146);
+    height: 65vh;
+
+}
+.rightside{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 90px;
+
+}
+
+.screen{
+    margin: 0 auto;
+    width: 98%;
+    height: 50vh ;
+    background-image: url(Images/screen\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.text-over a{
+    text-decoration: none;
+    color: brown;
+}
+
+.text-over{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px ;
+    font-size: 14px;
+}
+
+.scroll-screen{
+    display: flex;
+    justify-content: space-around;
+
+}
+#slide-screen{
+    width: 15%;
+    height: 12vh;
+    background-color: brown;
+    margin: 10px;
+}
+
+#asidebox{
+    background-color: brown;
+    color: white;
+    width: 70%;
+    font-size: 25px;
+}
+
+#main{
+    margin: 20px;
+    display: flex;
+}
+
+#offers{
+    display: flex;
+    flex-basis: 60%;
+}
+
+#offer{
+    text-align: center;
+    width: 70%;
+    margin: 10px;
+    border: 1px solid rgb(160, 159, 159);
+    padding: 20px;
+}
+
+#offer li{
+    color: brown;
+    list-style-type:square;
+}
+
+.owners{
+    flex-basis: 40%;
+    margin: 50px;
+}
+
+#owner{
+    display: flex;
+    padding: 30px;
+}
+
+.about-owner{
+    padding-left: 30px;
+}
+
+#main2{
+    display: flex;
+    padding: 30px;
+}
+
+#main2 > div{
+    margin-right: 30px;
+}
+
+.news{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.news > div{
+    margin-top: 20px;
+}
+
+.news > div h4{
+    color: brown;
+}
+
+
+.virtual-tour{
+    flex-basis: 35%;
+}
+.virtual-tour p{
+    padding-bottom: 10px;
+}
+.virtual-tour a{
+    text-decoration: none;
+    color: brown;
+}
+
+.videoimg{
+    margin: 10px auto;
+
+}
+
+.popularlinks{
+    flex-basis: 30%;
+    padding-left: 30px;
+}
+
+.popularlinks ul{
+    padding-top: 20px;
+    color: brown;   
+}
+
+.popularlinks ul li{
+    cursor: pointer;
+}
+
+#footer{
+    display: flex;
+    background-color: darkred;
+    color: white;
+    padding: 50px;
+}
+
+.address{
+    flex-basis: 40%;
+}
+
+.others{
+    flex-basis: 60%;
+}
+
+.others div{
+    display: inline-block;
+    margin:20px;
+}
+.others div button{
+    font-size: 20px;
+    padding: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: rgb(94, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#bottom{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    color: white;
+}
+
+.bottomhr{
+    opacity: 50%;
+}
